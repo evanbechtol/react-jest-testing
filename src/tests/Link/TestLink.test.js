@@ -35,7 +35,7 @@ test("Link changes the class when hovered", () => {
   expect(tree).toMatchInlineSnapshot(`
     <a
       className="normal"
-      href="https://www.facebook.com"
+      href="http://www.facebook.com"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
@@ -52,7 +52,7 @@ test("Link changes the class when hovered", () => {
   expect(tree).toMatchInlineSnapshot(`
     <a
       className="hovered"
-      href="https://www.facebook.com"
+      href="http://www.facebook.com"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
@@ -69,7 +69,7 @@ test("Link changes the class when hovered", () => {
   expect(tree).toMatchInlineSnapshot(`
     <a
       className="normal"
-      href="https://www.facebook.com"
+      href="http://www.facebook.com"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
