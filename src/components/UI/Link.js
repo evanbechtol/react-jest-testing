@@ -1,4 +1,3 @@
-// Link.react.js
 import React, {useState} from 'react';
 
 const STATUS = {
